@@ -24,3 +24,17 @@ console.log("Type of the personJson : ", typeof personJson);
 const perseJson = JSON.parse(personJson);
 console.log(perseJson);
 console.log(typeof perseJson);
+
+const students = [
+  { name: "Alim", marks: 56, passed: true },
+  { name: "Calim", marks: 66, passed: true },
+  { name: "Dalim", marks: 23, passed: false },
+  { name: "Selim", marks: 66, passed: true },
+  { name: "Halim", marks: 86, passed: true },
+];
+
+const personJson2 = JSON.stringify(students);
+console.log(personJson2);
+
+const personiFy = JSON.parse(personJson2);
+console.log(personiFy);
