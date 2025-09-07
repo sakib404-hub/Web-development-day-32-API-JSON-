@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email- Showing</title>
+    <style>
+      #parentContainer {
+        max-width: 1240px;
+        /* border: 2px solid black; */
+        padding: 10px;
+        margin: 30px auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        border-radius: 10px;
+        row-gap: 40px;
+        column-gap: 20px;
+      }
+      .postCard {
+        /* border: 2px solid lightblue; */
+        height: 100%;
+        padding: 10px;
+        border-radius: 10px;
+        text-align: justify;
+        background-color: aliceblue;
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.259);
+      }
+    </style>
+  </head>
+  <body>
+    <button onclick="showComments()">Show Comments</button>
+    <div id="parentContainer"></div>
+    <!-- Connecting the javascript -->
+    <script src="js/email.js"></script>
+  </body>
+</html>

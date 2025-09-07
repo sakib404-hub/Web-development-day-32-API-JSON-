@@ -79,7 +79,7 @@ const displayPosts = (posts) => {
 // };
 
 // const displayPost = (posts) => {
-//   //   console.log(posts);
+// console.log(posts);
 //   posts.forEach((element) => {
 //     console.log(element);
 //   });
