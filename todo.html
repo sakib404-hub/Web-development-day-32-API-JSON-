@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <!-- connecting the font-awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+
+    <style>
+      .title {
+        text-align: center;
+        /* border: 2px solid black; */
+      }
+      .todo_card {
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding: 5px;
+        margin: 10px 0;
+      }
+      #todo_list {
+        max-width: 1240px;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="title">All Todo</h1>
+    <section id="todo_list"></section>
+    <i class="fa-solid fa-square-check"></i>
+    <!-- connecting the javascript  -->
+    <script src="js/todo.js"></script>
+  </body>
+</html>
